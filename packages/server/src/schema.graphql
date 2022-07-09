@@ -1,0 +1,7 @@
+type Query {
+  counter: Int
+}
+
+type Mutation {
+  setCounter(counter: Int): Int
+}
